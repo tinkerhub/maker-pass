@@ -10,7 +10,7 @@
         /* center the container element */
         .container {
             display: flex;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
             margin-top: 3em;
         }
@@ -39,6 +39,7 @@
         }
     </style>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
     <script src="index.js" defer></script>
 </head>
 <body>
@@ -193,7 +194,8 @@
     </svg>
 </div>
 <div class="container">
-    <a href="#" class="download-btn" id="download">Download Pass</a>
+    <a href="#" class="download-btn" id="download-png">Download PNG</a>
+    <a href="#" class="download-btn" id="download-pdf">Download PDF</a>
 </div>
 </body>
 </html>
